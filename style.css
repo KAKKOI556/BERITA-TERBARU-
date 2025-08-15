@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Navbar Mobile */
+.navbar {
+    background-color: #003399;
+    color: white;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar img {
+    height: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Konten */
+.container {
+    padding: 12px;
+}
+
+.breadcrumb {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.breadcrumb a {
+    color: #777;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Judul berita */
+.tagline {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003399;
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+
+.highlight {
+    background-color: #ff6600;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.meta {
+    font-size: 11px;
+    color: #999;
+    margin-bottom: 12px;
+}
+
+/* Foto Berita */
+.photo {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.photo img {
+    width: calc(33.333% - 4px);
+    border-radius: 4px;
+}
+
+/* Deskripsi berita */
+.description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+/* Responsif */
+@media (max-width: 480px) {
+    .tagline {
+        font-size: 18px;
+    }
+    .photo img {
+        width: 100%;
+    }
+}
